@@ -1,0 +1,57 @@
+body {
+    font-family: Georgia;
+    color: white;
+}
+
+/* nagłówek i stopka */
+nav, footer {
+    background-color: #824555;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    clear: both;
+}
+
+#left, #middle, #right {
+    float: left
+}
+
+#left, #middle {
+    width: 30%;
+    height: 350px;
+}
+
+#left {
+    background-color: #A26475;
+}
+
+#middle {
+    background-color: #824555;
+}
+
+#right {
+    background-color: #A26470;
+    width: 40%;
+    height: 350px;
+    overflow-y: auto;
+}
+
+img {
+    float: left;
+    width: 50px;
+}
+
+table, p, li {
+    margin: 10px;
+}
+
+li {
+    padding-top: 20px;
+}
+
+td, th {
+    border: 3px solid #824555;
+    padding: 5px;
+}
