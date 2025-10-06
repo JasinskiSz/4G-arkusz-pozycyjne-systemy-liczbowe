@@ -58,14 +58,14 @@
 
     <!-- Blok środkowy -->
     <section id="middle">
-        <input type="number" placeholder="Wpisz liczbę dziesiętną">
+        <input type="number" placeholder="Wpisz liczbę dziesiętną" id="liczba">
         <!-- pierwszy sposób zrobienia przycisku -->
         <!-- <button onclick="">Przelicz na binarny</button> -->
 
         <!-- drugi sposób zrobienia przycisku -->
-        <input type="button" value="Przelicz na binarny" onclick="">
+        <input type="button" value="Przelicz na binarny" onclick="przelicz()">
 
-        <p>Brak obliczeń</p>
+        <p id="wynik-obliczen">Brak obliczeń</p>
     </section>
 
     <!-- Blok prawy -->
@@ -93,6 +93,8 @@
     <footer>
         <p>Stronę opracował: <em>Szymon Jasiński</em></p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
